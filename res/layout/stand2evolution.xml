@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="top" android:background="@drawable/testatk">
+
+        <LinearLayout
+            android:id="@+id/PokemonLayout0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/evo0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_oddish" />
+
+            <TextView
+                android:id="@+id/evo0name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#AA000000"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Bulbasaur"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffffff"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ArrowLayout0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/PokemonLayout0"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/forward" />
+
+            <TextView
+                android:id="@+id/method0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="(Level 12)"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="10sp" android:textColor="#000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/PokemonLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/evo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_vileplume" />
+
+            <TextView
+                android:id="@+id/evo2name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#AA000000"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Venusaur"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffffff"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/evo3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_bellossom" />
+
+            <TextView
+                android:id="@+id/evo3name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#AA000000"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Venusaur"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffffff"
+                android:textSize="12sp" android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/PokemonLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/ArrowLayout0"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/evo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_gloom" />
+
+            <TextView
+                android:id="@+id/evo1name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#AA000000"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Ivysaur"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffffff"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ArraowLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/PokemonLayout1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/forward_up" />
+
+            <TextView
+                android:id="@+id/method1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(Level 12)"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="10sp" android:textColor="#000"/>
+
+            <ImageView
+                android:id="@+id/ImageView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/forward_down" />
+
+            <TextView
+                android:id="@+id/method2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="(Level 12)"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="10sp" android:textColor="#000"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+  
+</RelativeLayout>

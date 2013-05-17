@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/statsSection"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="52dp" android:background="@drawable/basestats">
+
+        <LinearLayout
+            android:id="@+id/basestats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/basestatstext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Base Stats" />
+
+        </LinearLayout>
+
+        <TableLayout
+            android:id="@+id/statsLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginLeft="20dp">
+
+            <TableRow
+                android:id="@+id/hpRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/hptag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HP:"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/hp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HP:"
+                    android:textColor="#000" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/attackRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/attacktag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Attack:"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/attack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HP:"
+                    android:textColor="#000" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/defenseRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/defensetag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Defense:"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/defense"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HP:"
+                    android:textColor="#000" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/statsRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="30dp" android:layout_marginTop="20dp">
+
+            <TableRow
+                android:id="@+id/specialatkRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/specialatktag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Special Attack:"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/specialatk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HP:"
+                    android:textColor="#000" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/specialdefRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/specialdeftag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Special Defense:"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/specialdef"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HP:"
+                    android:textColor="#000" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/speedrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/speedtag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Speed:"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/speed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HP:"
+                    android:textColor="#000" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/statTotalTable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true" android:layout_marginLeft="10dp" android:layout_marginBottom="5dp">
+
+            <TableRow
+                android:id="@+id/stattotalRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/stattotaltag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Stat Total:"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/stattotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textColor="#000" />
+            </TableRow>
+        </TableLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:background="@drawable/testatk">
+
+	<TableRow android:layout_marginLeft="5dp" android:layout_marginTop="5dp">
+
+	    <TextView
+	        android:id="@+id/rby"
+	        android:layout_width="30dp"
+	        android:layout_column="0"
+	        android:layout_weight="1"
+	        android:text="R/B/Y"
+	        android:textColor="#000"
+	        android:textSize="10sp" />
+
+	    <TextView
+	        android:id="@+id/gsc"
+	        android:layout_width="30dp"
+	        android:layout_column="1"
+	        android:layout_weight="1"
+	        android:text="G/S/C"
+	        android:textColor="#000"
+	        android:textSize="10sp" >
+
+	    </TextView>
+
+	    <TextView
+	        android:id="@+id/rse"
+	        android:layout_width="30dp"
+	        android:layout_column="2"
+	        android:layout_weight="1"
+	        android:text="R/S/E"
+	        android:textColor="#000"
+	        android:textSize="10sp" >
+
+	    </TextView>
+
+	    <TextView
+	        android:id="@+id/frlg"
+	        android:layout_width="30dp"
+	        android:layout_weight="1"
+	        android:text="Fr/Lg"
+	        android:textColor="#000"
+	        android:textSize="10sp" />
+
+	    <TextView
+	        android:id="@+id/dppt"
+	        android:layout_width="40dp"
+	        android:layout_column="4"
+	        android:layout_weight="1"
+	        android:text="D/P/Pt"
+	        android:textColor="#000"
+	        android:textSize="10sp" >
+
+	    </TextView>
+
+	    <TextView
+	        android:id="@+id/hgss"
+	        android:layout_width="30dp"
+	        android:layout_column="5"
+	        android:layout_weight="1"
+	        android:text="Hg/Ss"
+	        android:textColor="#000"
+	        android:textSize="10sp" >
+
+	    </TextView>
+
+	    <TextView
+	        android:id="@+id/bw"
+	        android:layout_width="30dp"
+	        android:layout_column="6"
+	        android:layout_weight="1"
+	        android:text="B/W"
+	        android:textColor="#000"
+	        android:textSize="10sp" >
+
+	    </TextView>
+
+	    <TextView
+	        android:id="@+id/move"
+	        android:layout_width="100dp"
+	        android:layout_column="7"
+	        android:layout_weight="1"
+	        android:text="Move"
+	        android:textColor="#000"
+	        android:textSize="10sp" >
+
+	    </TextView>
+  </TableRow>
+    <View
+        android:id="@+id/hr"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#797d7f" />
+	<TableLayout
+	    android:id="@+id/level_secion"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" android:layout_marginLeft="5dp">
+	</TableLayout>
+</TableLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="top"
+    android:orientation="vertical" android:background="@drawable/field">
+
+    <RelativeLayout
+        android:id="@+id/navagationBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#156"
+        android:scaleType="fitStart" >
+
+        <TableLayout
+            android:id="@+id/topBarTable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitStart" >
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_gravity="right" >
+
+                <TextView
+                    android:id="@+id/masterdex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="MasterDex"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#000" />
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="2dp"
+                    android:src="@drawable/ic_launcher" />
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ListButton"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/navagationBar" >
+
+        <Button
+            android:id="@+id/moves_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/movestab"
+            android:gravity="left|center_vertical"
+            android:text="Moves" android:paddingLeft="5dp"/>
+
+        <Button
+            android:id="@+id/nature_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/moves_button"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/naturetab"
+            android:gravity="left|center_vertical"
+            android:text="Nature Chart" android:paddingLeft="5dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

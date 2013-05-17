@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="top"
+    android:orientation="vertical" android:background="@drawable/field">
+
+    <RelativeLayout
+        android:id="@+id/navagationBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#156"
+        android:scaleType="fitStart" >
+
+        <TableLayout
+            android:id="@+id/topBarTable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitStart" >
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_gravity="right" >
+
+                <TextView
+                    android:id="@+id/masterdex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="MasterDex"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#000" />
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="2dp"
+                    android:src="@drawable/ic_launcher" />
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ListButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/navagationBar" >
+
+        <Button
+            android:id="@+id/custom_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/poketab"
+            android:gravity="left|center_vertical"
+            android:text="Pokemon" android:paddingLeft="5dp"/>
+
+        <Button
+            android:id="@+id/trainer_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/custom_button"
+            android:background="@drawable/gymtab"
+            android:gravity="left|center_vertical"
+            android:text="Trainers" android:paddingLeft="5dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/ListButton" >
+
+        <Button
+            android:id="@+id/mechanics_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/wrenchtab_reflect"
+            android:gravity="right|center_vertical"
+            android:text="Mechanics" android:paddingRight="5dp"/>
+
+        <Button
+            android:id="@+id/about_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/mechanics_button"
+            android:background="@drawable/abouttab_reflect"
+            android:gravity="right|center_vertical"
+            android:text="About" android:paddingRight="5dp"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/twitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/twitterbutton" />
+
+</RelativeLayout>

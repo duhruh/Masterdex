@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/testatk" >
+
+        <LinearLayout
+            android:id="@+id/PokemonLayout0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/evo0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_wurmple" />
+
+            <TextView
+                android:id="@+id/evo0name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#AA000000"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Wurmple"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffffff"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ArrowLayout0"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/PokemonLayout0"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/forward_up" />
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(Level 7, random based on personality)"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="8sp" android:textColor="#000"/>
+
+            <ImageView
+                android:id="@+id/ImageView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/forward_down" />
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(Level 7, random based on personality)"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="8sp" android:textColor="#000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/PokemonLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/ArrowLayout0"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ImageView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_silcoon" />
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#AA000000"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Silcoon"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffffff"
+                android:textSize="12sp" android:layout_marginBottom="30dp"/>
+
+            <ImageView
+                android:id="@+id/evo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_cascoon" />
+
+            <TextView
+                android:id="@+id/evo1name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="#AA000000"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Cascoon"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffffff"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/PokemonLayout1"
+            android:orientation="vertical" android:layout_marginLeft="5dp" android:layout_marginRight="5dp">
+
+            <ImageView
+                android:id="@+id/ImageView04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/forward" />
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="60dp"
+                android:text="Level 10"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="8sp" android:textColor="#000"/>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/forward" />
+
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Level 10"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="8sp" android:textColor="#000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/linearLayout1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ImageView06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_beautifly" />
+
+            <TextView
+                android:id="@+id/TextView07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#AA000000"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Beautifly"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffffff"
+                android:textSize="12sp" android:layout_marginBottom="30dp"/>
+
+            <ImageView
+                android:id="@+id/ImageView05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_dustox" />
+
+            <TextView
+                android:id="@+id/TextView06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#AA000000"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Dustox"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffffff"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+  
+</RelativeLayout>

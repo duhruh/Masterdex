@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indexr"
+    android:gravity="right"
+    android:orientation="vertical" 
+    android:id="@+id/root">
+
+    <RelativeLayout
+        android:id="@+id/topBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bar_roc" >
+
+        <RelativeLayout
+            android:id="@+id/trainerName"
+            android:layout_width="160dp"
+            android:layout_height="42dp" >
+
+            <TextView
+                android:id="@+id/trainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Brock"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/topBarLayout" >
+
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="426dp" >
+
+            <RelativeLayout
+                android:id="@+id/topSection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true" >
+
+                <FrameLayout
+                    android:id="@+id/trainerFrame"
+                    android:layout_width="175dp"
+                    android:layout_height="250dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="-15dp" >
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ball" />
+
+                    <ImageView
+                        android:id="@+id/wheel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" />
+
+                    <ImageView
+                        android:id="@+id/trainer_"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/trainer_brock" />
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:id="@+id/leftLayout"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/box2"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/generalInfoLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="12dp"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/generalInfo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="General Info" />
+
+                    </LinearLayout>
+
+                    <TableLayout
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="10dp" >
+
+                        <TableRow
+                            android:id="@+id/hometownRow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+                                android:id="@+id/hometownTag"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:text="Hometown:"
+                                android:textColor="#000" android:textSize="12sp" android:layout_marginLeft="6dp"/>
+
+                            <TextView
+                                android:id="@+id/hometown"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="hometown"
+                                android:textColor="#000" android:textSize="12sp"/>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/regionRow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_marginTop="5dp">
+
+                            <TextView
+                                android:id="@+id/regionTag"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:text="Reigon:"
+                                android:textColor="#000" android:textSize="12sp" android:layout_marginLeft="6dp"/>
+
+                            <TextView
+                                android:id="@+id/region"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="region"
+                                android:textColor="#000" android:textSize="12sp"/>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/ageRow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_marginTop="5dp">
+
+                            <TextView
+                                android:id="@+id/ageTag"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:text="Age:"
+                                android:textColor="#000"
+                                android:textSize="12sp" android:layout_marginLeft="6dp"/>
+
+                            <TextView
+                                android:id="@+id/age"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="age"
+                                android:textColor="#000" android:textSize="12sp"/>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/badgeRow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_marginTop="5dp">
+
+                            <TextView
+                                android:id="@+id/badgeTag"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:text="Badge:"
+                                android:textColor="#000"
+                                android:textSize="12sp" android:layout_marginLeft="6dp"/>
+
+                            <TextView
+                                android:id="@+id/badge"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="badge"
+                                android:textColor="#000" android:textSize="12sp"/>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/pTypeRow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_marginTop="5dp">
+
+                            <TextView
+                                android:id="@+id/pTypeTag"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:text="Specialty:"
+                                android:textColor="#000"
+                                android:textSize="12sp" android:layout_marginLeft="6dp"/>
+
+                            <TextView
+                                android:id="@+id/pType"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="type"
+                                android:textColor="#000" android:textSize="12sp"/>
+
+                        </TableRow>
+
+                    </TableLayout>
+
+                    <FrameLayout
+                        android:layout_width="50dp"
+                        android:layout_height="90dp"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="20dp" >
+
+                        <ImageView
+                            android:id="@+id/badgeIcon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/midSection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/topSection"
+                android:orientation="vertical" >
+ />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+        
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitStart"
+        android:src="@drawable/newbattle" />
+
+</RelativeLayout>

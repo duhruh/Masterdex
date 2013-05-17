@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <TableRow
+        android:id="@+id/levelrow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/rbycol"
+            android:layout_width="30dp"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="-"
+            android:textColor="#000" android:layout_marginLeft="5dp">
+
+	    </TextView>
+	    <TextView android:text="-"
+	        android:layout_width="30dp"
+	        android:layout_column="1"
+	        android:layout_weight="1"
+	        android:id="@+id/gsccol" android:textColor="#000" android:layout_marginLeft="5dp">
+	    </TextView>
+	    <TextView android:text="-"
+	        android:layout_width="30dp"
+	        android:layout_column="2"
+	        android:layout_weight="1"
+	        android:id="@+id/rsecol" android:textColor="#000" android:layout_marginLeft="5dp">
+	    </TextView>
+	    <TextView android:text="-"
+	        android:layout_width="30dp"
+	        android:layout_column="3"
+	        android:layout_weight="1"
+	        android:id="@+id/frlgcol" android:textColor="#000" android:layout_marginLeft="5dp">
+	    </TextView>
+	    <TextView android:text="-"
+	        android:layout_width="30dp"
+	        android:layout_column="4"
+	        android:layout_weight="1"
+	        android:id="@+id/dpptcol" android:textColor="#000" android:layout_marginLeft="5dp">
+	    </TextView>
+	    <TextView android:text="-"
+	        android:layout_width="30dp"
+	        android:layout_column="5"
+	        android:layout_weight="1"
+	        android:id="@+id/hgsscol" android:textColor="#000" android:layout_marginLeft="5dp">
+	    </TextView>
+	    <TextView android:text="-"
+	        android:layout_width="30dp"
+	        android:layout_column="6"
+	        android:layout_weight="1"
+	        android:id="@+id/bwcol" android:textColor="#000" android:layout_marginLeft="5dp">
+	    </TextView>
+	    <TextView android:text="-"
+	        android:layout_width="100dp"
+	        android:layout_column="7"
+	        android:layout_weight="1"
+	        android:id="@+id/move" android:textColor="#000" android:layout_marginLeft="2dp">
+	    </TextView>
+    </TableRow>
+
+</LinearLayout>

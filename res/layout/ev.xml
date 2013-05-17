@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/testatk"
+        android:orientation="vertical" >
+		<TextView
+            android:id="@+id/ev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Effort Value Yield"
+            android:textColor="#000" />
+        
+
+        <View
+            android:id="@+id/hr"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#797d7f" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TableLayout
+                android:id="@+id/statsLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp" >
+
+                <TableRow
+                    android:id="@+id/ehpRow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/hptag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="HP:"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:id="@+id/hp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="#000" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/eattackRow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/attacktag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Attack:"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:id="@+id/attack"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="#000" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/edefenseRow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/defensetag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Defense:"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:id="@+id/defense"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="#000" />
+
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/statsRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="50dp" >
+
+                <TableRow
+                    android:id="@+id/especialatkRow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/specialatktag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Special Attack:"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:id="@+id/specialatk"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="#000" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/especialdefRow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/specialdeftag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Special Defense:"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:id="@+id/specialdef"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="#000" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/espeedrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/speedtag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Speed:"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:id="@+id/speed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="#000" />
+
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
